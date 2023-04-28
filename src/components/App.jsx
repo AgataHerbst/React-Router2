@@ -14,7 +14,7 @@ function Main() {
     case 'posts':
       return <h1>Post</h1>;
     default:
-      return <h1>Not Found {route.name}</h1>;
+      return <h1>Not Found{route.name}</h1>;
   }
 }
 
